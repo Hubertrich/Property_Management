@@ -1,0 +1,23 @@
+# Core framework
+Django>=4.2,<5.0
+
+# Database (PostgreSQL)
+psycopg2-binary>=2.9
+
+# Environment variables management
+python-decouple>=3.8
+
+# REST API framework
+djangorestframework>=3.14
+
+# JWT Authentication for APIs
+djangorestframework-simplejwt>=5.3.1
+
+# Forms (for better form rendering in templates)
+django-crispy-forms>=2.1
+
+# Static files handling (useful in dev + production)
+whitenoise>=6.6.0
+
+# Production WSGI server (needed when deploying to Linux)
+gunicorn>=22.0.0
